@@ -14,8 +14,8 @@ SRC_URI = "https://github.com/freedoom/freedoom/releases/download/v${PV}/freedoo
 
 
 PACKAGE_ARCH = "all"
-FILES_${PN} = "${datadir}/games/doom/*"
-FILES_${PN}-doc = "${datadir}/doc/freedoom/*"
+FILES:${PN} = "${datadir}/games/doom/*"
+FILES:${PN}-doc = "${datadir}/doc/freedoom/*"
 
 do_install() {
 	install -d ${D}/${datadir}/games/doom

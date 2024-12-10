@@ -4,7 +4,7 @@ DEPENDS = "virtual/libsdl libsdl-mixer libsdl-net pkgconfig"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
-RRECOMMENDS_${PN} = "freedoom"
+RRECOMMENDS:${PN} = "freedoom"
 
 PV = "2.3.0"
 PR = "r0"
@@ -20,6 +20,6 @@ S = "${WORKDIR}/chocolate-doom-chocolate-doom-${PV}"
 
 
 
-FILES_${PN} = "/usr/share ${bindir}"
+FILES:${PN} = "/usr/share ${bindir}"
 
 
