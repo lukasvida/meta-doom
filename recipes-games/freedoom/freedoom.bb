@@ -13,7 +13,7 @@ PV = "0.11.3"
 SRC_URI = "https://github.com/freedoom/freedoom/releases/download/v${PV}/freedoom-${PV}.zip"
 
 
-PACKAGE_ARCH = "all"
+#PACKAGE_ARCH = "all"
 FILES:${PN} = "${datadir}/games/doom/*"
 FILES:${PN}-doc = "${datadir}/doc/freedoom/*"
 
