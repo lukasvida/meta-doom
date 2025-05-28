@@ -1,12 +1,13 @@
 DESCRIPTION = "A Doom Clone based on SDL"
 SECTION = "games"
-DEPENDS = "virtual/libsdl libsdl-mixer libsdl-net pkgconfig"
 #LICENSE = "GPL"
 LICENSE = "CLOSED"
 #LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
 RRECOMMENDS:${PN} = "freedoom"
-DEPENDS = "virtual/libsdl2 libsdl2-mixer libsdl2-net"
+DEPENDS = "virtual/libsdl2 libsdl2-mixer libsdl2-net pkgconfig"
+RDEPENDS = "virtual/libsdl2 libsdl2-mixer libsdl2-net"
+
 
 PV = "3.1.0"
 PR = "r0"
