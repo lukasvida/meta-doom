@@ -6,7 +6,7 @@ LICENSE = "CLOSED"
 
 RRECOMMENDS:${PN} = "freedoom"
 DEPENDS = "virtual/libsdl2 libsdl2-mixer libsdl2-net pkgconfig"
-RDEPENDS:${PN} = "virtual/libsdl2 libsdl2-mixer libsdl2-net"
+RDEPENDS:${PN} = "libsdl2 libsdl2-mixer libsdl2-net"
 
 
 PV = "3.1.0"
